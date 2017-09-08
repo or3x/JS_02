@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HW_Lesson_02</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+;(function(){
+
+	var Admin = prompt("Who is come? *Admin*");
+	if(Admin == "Admin"){
+		var Password = prompt("Password? *DarkLord*");
+		if(Password == "DarkLord"){
+				alert("Hello!")
+				return;
+				} if(Password == null){
+					alert("Enter canceled")
+					return;
+				}
+				else {
+					alert("Incorrect");
+					return Password;
+
+
+				}
+
+	}
+	if(Admin == null){
+		alert("Enter canceled")
+	}  else {
+		alert("I don`t know who u are")
+		return Admin;
+	}
+
+})();
+
+
+</script>
+
+</body>
+</html>
